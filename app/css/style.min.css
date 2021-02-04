@@ -1,0 +1,327 @@
+@charset "UTF-8";
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.opacity {
+  opacity: 1 !important;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100%;
+}
+
+.content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+  background-color: #fff;
+}
+
+.footer {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0px 10px;
+  margin: 0 auto;
+}
+
+.container-fluid {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.body {
+  background-image: url("../images/proj.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+
+.title {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 82px;
+  text-align: right;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.logo {
+  -webkit-filter: drop-shadow(-20px -20px 40px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(-20px -20px 40px rgba(0, 0, 0, 0.25));
+  border-radius: 10px;
+}
+
+.vector-box {
+  margin-top: 205px;
+  position: relative;
+  width: 1195px;
+  height: 3514px;
+}
+
+.vector-box header,
+.vector-box .header {
+  margin-bottom: 362px;
+}
+
+.vector-box header-logo,
+.vector-box .header-logo {
+  margin-right: 98px;
+}
+
+.vector-box header-content,
+.vector-box .header-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.vector-box header-information,
+.vector-box .header-information {
+  text-align: right;
+}
+
+.vector-box header-title,
+.vector-box .header-title {
+  text-align: left;
+  max-width: 100%;
+  width: 500px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 80px;
+  color: #FFFFFF;
+  text-shadow: 0px 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+.vector-box .box-title, .vector-box .box-text {
+  text-align: center;
+}
+
+.vector-box .box-title {
+  margin-bottom: 10px;
+}
+
+.vector-box .box-text {
+  margin-bottom: 65px;
+}
+
+.vector-box .box1 {
+  margin-top: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.vector-box .box1-text, .vector-box .box1-title {
+  text-align: left;
+}
+
+.vector-box .box1-content {
+  margin-top: 94px;
+  margin-right: 94px;
+}
+
+.vector-box footer,
+.vector-box .footer {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(5.46%, rgba(0, 0, 0, 0)), color-stop(23.96%, rgba(0, 0, 0, 0.4)), color-stop(80.73%, rgba(0, 0, 0, 0.4)), color-stop(96.87%, rgba(0, 0, 0, 0)));
+  background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 5.46%, rgba(0, 0, 0, 0.4) 23.96%, rgba(0, 0, 0, 0.4) 80.73%, rgba(0, 0, 0, 0) 96.87%);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 5.46%, rgba(0, 0, 0, 0.4) 23.96%, rgba(0, 0, 0, 0.4) 80.73%, rgba(0, 0, 0, 0) 96.87%);
+  width: 1261px;
+  height: 526px;
+  padding: 90px 60px;
+  position: relative;
+  z-index: 1;
+}
+
+.vector-box footer-inner,
+.vector-box .footer-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.vector-box footer-text,
+.vector-box .footer-text {
+  margin-top: 35px;
+  text-align: center;
+}
+
+.vector-box footer-text span,
+.vector-box .footer-text span {
+  color: #E9590C;
+}
+
+.vector-box footer-text .mail,
+.vector-box footer-text .number,
+.vector-box footer-text .map,
+.vector-box .footer-text .mail,
+.vector-box .footer-text .number,
+.vector-box .footer-text .map {
+  margin-bottom: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: left;
+}
+
+.vector-box footer-text .map::before,
+.vector-box .footer-text .map::before {
+  margin-right: 20px;
+  content: url(../images/3.png);
+}
+
+.vector-box footer-text .number::before,
+.vector-box .footer-text .number::before {
+  margin-right: 20px;
+  content: url(../images/2.png);
+}
+
+.vector-box footer-text .mail::before,
+.vector-box .footer-text .mail::before {
+  margin-right: 20px;
+  content: url(../images/1.png);
+}
+
+.vector-box footer-item,
+.vector-box .footer-item {
+  width: 380px;
+  height: 346px;
+}
+
+.vector-box footer-item__title,
+.vector-box .footer-item__title {
+  text-align: center;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 41px;
+  /* identical to box height */
+  margin-bottom: 41px;
+  text-transform: uppercase;
+}
+
+.vector-box footer-item__title span,
+.vector-box .footer-item__title span {
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+  color: #E9590C;
+}
+
+.vector-box footer-item__title span:hover,
+.vector-box .footer-item__title span:hover {
+  color: #fff;
+}
+
+.vector-box footer-item:nth-child(1), .vector-box footer-item:nth-child(2),
+.vector-box .footer-item:nth-child(1),
+.vector-box .footer-item:nth-child(2) {
+  border-right: 1px solid white;
+}
+
+.vector-box .trajectory {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.vector-box .st0 {
+  fill: none;
+  stroke-width: 5;
+  stroke-dasharray: 30 40;
+}
+
+.vector-box .mask-style {
+  stroke: white;
+}
+
+.vector-box #f {
+  opacity: 0;
+}
+
+.vector-box #final {
+  position: absolute;
+  top: 84%;
+  left: 65%;
+}
+
+.vector-box #dot {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: -30px;
+  left: 0;
+  offset-rotate: -3deg;
+  motion-path: path("M605.878 68.3506C760.466 4.84069 1060.74 -70.4315 1025.12 136.559C980.592 395.298 581.364 381.656 556.35 535.808C531.335 689.96 570.858 744.072 605.878 784.997C640.898 825.923 780.478 902.771 635.895 961.885C491.312 1021 227.161 957.338 137.109 1025.55C47.0578 1093.76 -27.9851 1134.23 12.0378 1202.44C52.0607 1270.64 740.955 1266.1 765.969 1257C790.983 1247.91 955.578 1111.94 975.589 1052.83C988.061 1015.99 1005.19 916.219 1016.8 841.036C1022.06 806.996 1006.36 773.112 976.477 755.979C916.057 721.335 840.873 683.331 825.503 694.507C800.489 712.696 651.404 712.241 765.969 821.375C869.037 919.556 883.835 922.05 950.971 924.872C967.049 925.548 982.688 930.882 996.03 939.88C1160.21 1050.6 1160.58 1024.93 1170.2 1111.94C1180.21 1202.44 1170.2 1189.25 1170.2 1257C1170.2 1324.76 1255.25 1234.27 1170.2 1429.34C1085.15 1624.42 1344.8 1751.74 1085.15 1837.69C825.503 1923.63 800.49 1946.37 605.878 1964.55C411.266 1982.74 236.666 2091.42 226.66 2155.08C216.655 2218.75 201.646 2250.12 226.66 2291.05C245.711 2322.22 401.99 2306.4 488.747 2293.04C497.125 2291.75 505.2 2289.18 512.761 2285.35C540.674 2271.2 575.929 2251.54 605.878 2231.2M605.878 2231.2C647.658 2202.81 679.114 2173.08 665.912 2155.08C635.895 2114.16 835.509 2028.22 870.529 2028.22C905.549 2028.22 970.586 1927.3 920.558 1919.08C870.529 1910.86 775.474 1823.59 665.912 1882.7C556.35 1941.82 531.336 1973.19 556.35 2073.23C581.364 2173.27 495.815 2098.59 605.878 2231.2ZM605.878 2231.2C710.438 2390.35 809.526 2409.65 764.5 2486.5C719.474 2563.35 910.552 2817.16 665.912 2826.26C421.272 2835.35 371.743 2826.26 286.695 2826.26C201.646 2826.26 -102.528 2767.14 137.109 3170.94C376.746 3574.74 865.526 3080.45 920.558 3080.45C975.589 3080.45 1271.08 2813.89 1131.5 3104C991.92 3394.11 892.583 3469.95 748 3379C603.417 3288.05 327.867 3376.49 411.266 3429.68C1039 3830 368 2633 271 3025.5C207.481 3282.52 1075.66 2637.87 801 2978");
+  offset-path: path("M605.878 68.3506C760.466 4.84069 1060.74 -70.4315 1025.12 136.559C980.592 395.298 581.364 381.656 556.35 535.808C531.335 689.96 570.858 744.072 605.878 784.997C640.898 825.923 780.478 902.771 635.895 961.885C491.312 1021 227.161 957.338 137.109 1025.55C47.0578 1093.76 -27.9851 1134.23 12.0378 1202.44C52.0607 1270.64 740.955 1266.1 765.969 1257C790.983 1247.91 955.578 1111.94 975.589 1052.83C988.061 1015.99 1005.19 916.219 1016.8 841.036C1022.06 806.996 1006.36 773.112 976.477 755.979C916.057 721.335 840.873 683.331 825.503 694.507C800.489 712.696 651.404 712.241 765.969 821.375C869.037 919.556 883.835 922.05 950.971 924.872C967.049 925.548 982.688 930.882 996.03 939.88C1160.21 1050.6 1160.58 1024.93 1170.2 1111.94C1180.21 1202.44 1170.2 1189.25 1170.2 1257C1170.2 1324.76 1255.25 1234.27 1170.2 1429.34C1085.15 1624.42 1344.8 1751.74 1085.15 1837.69C825.503 1923.63 800.49 1946.37 605.878 1964.55C411.266 1982.74 236.666 2091.42 226.66 2155.08C216.655 2218.75 201.646 2250.12 226.66 2291.05C245.711 2322.22 401.99 2306.4 488.747 2293.04C497.125 2291.75 505.2 2289.18 512.761 2285.35C540.674 2271.2 575.929 2251.54 605.878 2231.2M605.878 2231.2C647.658 2202.81 679.114 2173.08 665.912 2155.08C635.895 2114.16 835.509 2028.22 870.529 2028.22C905.549 2028.22 970.586 1927.3 920.558 1919.08C870.529 1910.86 775.474 1823.59 665.912 1882.7C556.35 1941.82 531.336 1973.19 556.35 2073.23C581.364 2173.27 495.815 2098.59 605.878 2231.2ZM605.878 2231.2C710.438 2390.35 809.526 2409.65 764.5 2486.5C719.474 2563.35 910.552 2817.16 665.912 2826.26C421.272 2835.35 371.743 2826.26 286.695 2826.26C201.646 2826.26 -102.528 2767.14 137.109 3170.94C376.746 3574.74 865.526 3080.45 920.558 3080.45C975.589 3080.45 1271.08 2813.89 1131.5 3104C991.92 3394.11 892.583 3469.95 748 3379C603.417 3288.05 327.867 3376.49 411.266 3429.68C1039 3830 368 2633 271 3025.5C207.481 3282.52 1075.66 2637.87 801 2978");
+}
+
+@media screen and (orientation: portrait) {
+  /* Стили для портретной */
+}
